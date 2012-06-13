@@ -1,0 +1,120 @@
+/* clothes css styling */
+
+.span1,.span2,.span3,.span4,
+.span5,.span6,.span7,.span8,
+.span9,.span10,.span11,.span12 {
+  // outline: 1px solid #000;
+}
+
+$red: #ff432d;
+$black: #221e1f;
+$purple: #7755b0;
+$grey: #606060;
+$blue: #0068dc;
+$teal: #00d5e8;
+$yellow: #ffdc68;
+$green: #1e482a;
+$cranberry: #b73235;
+
+.red { background-color: #ff432d; }
+.black { background-color: #221e1f; }
+.purple { background-color: #7755b0; }
+.gray { background-color: #606060; }
+.blue { background-color: #0068dc; }
+.teal { background-color: #00d5e8; }
+.yellow { background-color: #ffdc68; }
+.green { background-color: #1e482a; }
+.cranberry { background-color: #b73235; }
+
+
+#breadcrumbs {
+  margin-bottom: 10px;
+  div > div {
+    float: left;
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    &:first-of-type {
+      margin-left: 0;
+    }
+  }
+}
+
+#shopping_gallery {
+  .row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .clothing_thumb {
+    $s: 160px;
+    width: $s;
+    height: $s;
+    margin: 5px auto;
+    $r: 7px;
+    border-radius: $r;
+    -moz-border-radius: $r;
+  }
+  h3 {
+    font-size: 0.9em;
+    text-transform: uppercase;
+    line-height: 1.7em;
+    text-align: center;
+  }
+}
+
+div[id^="gallery"] {
+  -webkit-transition: box-shadow 0.4s;
+}
+
+#gallery_red {
+  background: url(img/clothes/red.png);
+}
+#gallery_yellow {
+  background: url(img/clothes/yellow.png);
+}
+#gallery_green {
+  background: url(img/clothes/green.png);
+}
+#gallery_grey {
+  background: url(img/clothes/grey.png);
+}
+#gallery_blue {
+  background: url(img/clothes/blue.png);
+}
+#gallery_teal {
+  background: url(img/clothes/teal.png);
+}
+#gallery_cranberry {
+  background: url(img/clothes/cranberry.png);
+}
+#gallery_purple {
+  background: url(img/clothes/purple.png);
+}
+#gallery_black {
+  background: url(img/clothes/black.png);
+}
+
+@mixin gallery_border($color) {
+  border: 1px solid darken($color, 15%);
+  cursor: pointer;
+  &:hover {
+    box-shadow: 0px 0px 20px rgba($color, 0.6);
+  }
+}
+
+#gallery_red { @include gallery_border($red); }
+#gallery_yellow { @include gallery_border($yellow); }
+#gallery_green { @include gallery_border($green); }
+#gallery_grey { @include gallery_border($grey); }
+#gallery_blue { @include gallery_border($blue); }
+#gallery_teal { @include gallery_border($teal); }
+#gallery_cranberry { @include gallery_border($cranberry); }
+#gallery_purple { @include gallery_border($purple); }
+#gallery_black { @include gallery_border($black); }
+
+.gallery_item {
+  width: 220px;
+  float: left;
+}
+

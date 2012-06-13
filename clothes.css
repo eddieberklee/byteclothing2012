@@ -1,0 +1,141 @@
+/* clothes css styling */
+.red {
+  background-color: #ff432d; }
+
+.black {
+  background-color: #221e1f; }
+
+.purple {
+  background-color: #7755b0; }
+
+.gray {
+  background-color: #606060; }
+
+.blue {
+  background-color: #0068dc; }
+
+.teal {
+  background-color: #00d5e8; }
+
+.yellow {
+  background-color: #ffdc68; }
+
+.green {
+  background-color: #1e482a; }
+
+.cranberry {
+  background-color: #b73235; }
+
+#breadcrumbs {
+  margin-bottom: 10px; }
+  #breadcrumbs div > div {
+    float: left;
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: pointer; }
+    #breadcrumbs div > div:first-of-type {
+      margin-left: 0; }
+
+#shopping_gallery .row {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+#shopping_gallery .clothing_thumb {
+  width: 160px;
+  height: 160px;
+  margin: 5px auto;
+  border-radius: 7px;
+  -moz-border-radius: 7px; }
+#shopping_gallery h3 {
+  font-size: 0.9em;
+  text-transform: uppercase;
+  line-height: 1.7em;
+  text-align: center; }
+
+div[id^="gallery"] {
+  -webkit-transition: box-shadow 0.4s; }
+
+#gallery_red {
+  background: url(img/clothes/red.png); }
+
+#gallery_yellow {
+  background: url(img/clothes/yellow.png); }
+
+#gallery_green {
+  background: url(img/clothes/green.png); }
+
+#gallery_grey {
+  background: url(img/clothes/grey.png); }
+
+#gallery_blue {
+  background: url(img/clothes/blue.png); }
+
+#gallery_teal {
+  background: url(img/clothes/teal.png); }
+
+#gallery_cranberry {
+  background: url(img/clothes/cranberry.png); }
+
+#gallery_purple {
+  background: url(img/clothes/purple.png); }
+
+#gallery_black {
+  background: url(img/clothes/black.png); }
+
+#gallery_red {
+  border: 1px solid #e01700;
+  cursor: pointer; }
+  #gallery_red:hover {
+    box-shadow: 0px 0px 20px rgba(255, 67, 45, 0.6); }
+
+#gallery_yellow {
+  border: 1px solid #ffca1c;
+  cursor: pointer; }
+  #gallery_yellow:hover {
+    box-shadow: 0px 0px 20px rgba(255, 220, 104, 0.6); }
+
+#gallery_green {
+  border: 1px solid #08120b;
+  cursor: pointer; }
+  #gallery_green:hover {
+    box-shadow: 0px 0px 20px rgba(30, 72, 42, 0.6); }
+
+#gallery_grey {
+  border: 1px solid #3a3a3a;
+  cursor: pointer; }
+  #gallery_grey:hover {
+    box-shadow: 0px 0px 20px rgba(96, 96, 96, 0.6); }
+
+#gallery_blue {
+  border: 1px solid #004490;
+  cursor: pointer; }
+  #gallery_blue:hover {
+    box-shadow: 0px 0px 20px rgba(0, 104, 220, 0.6); }
+
+#gallery_teal {
+  border: 1px solid #008f9c;
+  cursor: pointer; }
+  #gallery_teal:hover {
+    box-shadow: 0px 0px 20px rgba(0, 213, 232, 0.6); }
+
+#gallery_cranberry {
+  border: 1px solid #7b2224;
+  cursor: pointer; }
+  #gallery_cranberry:hover {
+    box-shadow: 0px 0px 20px rgba(183, 50, 53, 0.6); }
+
+#gallery_purple {
+  border: 1px solid #543b7e;
+  cursor: pointer; }
+  #gallery_purple:hover {
+    box-shadow: 0px 0px 20px rgba(119, 85, 176, 0.6); }
+
+#gallery_black {
+  border: 1px solid black;
+  cursor: pointer; }
+  #gallery_black:hover {
+    box-shadow: 0px 0px 20px rgba(34, 30, 31, 0.6); }
+
+.gallery_item {
+  width: 220px;
+  float: left; }
