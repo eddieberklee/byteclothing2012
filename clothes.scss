@@ -28,32 +28,39 @@ $cranberry: #b73235;
 
 
 #breadcrumbs {
-  margin-bottom: 10px;
   div > div {
-    float: left;
+    margin-top: 10px;
     text-transform: uppercase;
-    margin-left: 10px;
+    font-size: 1.1em;
     font-weight: bold;
+
+    float: left;
     cursor: pointer;
+
+    margin-left: 10px;
     &:first-of-type {
-      margin-left: 0;
+      margin-left: 35px;
     }
   }
 }
 
 #shopping_gallery {
   .row {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding-bottom: 20px;
   }
   .clothing_thumb {
     $s: 160px;
     width: $s;
     height: $s;
     margin: 5px auto;
+    margin-top: 25px;
     $r: 7px;
     border-radius: $r;
     -moz-border-radius: $r;
+  }
+  .gallery_item {
+    width: 234px;
+    float: left;
   }
   h3 {
     font-size: 0.9em;
@@ -65,6 +72,7 @@ $cranberry: #b73235;
 
 div[id^="gallery"] {
   -webkit-transition: box-shadow 0.4s;
+  background-repeat: no-repeat;
 }
 
 #gallery_red {
@@ -112,9 +120,4 @@ div[id^="gallery"] {
 #gallery_cranberry { @include gallery_border($cranberry); }
 #gallery_purple { @include gallery_border($purple); }
 #gallery_black { @include gallery_border($black); }
-
-.gallery_item {
-  width: 220px;
-  float: left;
-}
 

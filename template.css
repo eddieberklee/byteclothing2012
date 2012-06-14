@@ -95,7 +95,7 @@ body {
   position: relative;
   top: 78px; }
   #navigation .selected {
-    border-bottom: 1px solid #000; }
+    border-bottom: 1px solid #ccc; }
   #navigation span {
     display: block;
     float: left;
