@@ -10,6 +10,10 @@ h2 {
   font-weight: 300;
   text-transform: uppercase; }
 
+/* Footer Margin */
+.container {
+  margin-bottom: 30px; }
+
 /* Height Settings */
 #larger-three-panel div[class^="span"] {
   height: 390px; }
